@@ -11,19 +11,26 @@
 ## Code Problems
 
 1. Declare a function named `reverseString` that takes in a string argument and returns the reversed version of the string, without using any `.reverse()` JavaScript methods. **Hint:** How can you use a loop iterate through a string backwards?
-    
-    ```
-    reverseString("hello")  //"olleh"
-    reverseString("oo")     //"oo"
-    reverseString("")       //""
-    
-    ```
-    
+
+   ```
+   reverseString("hello")  //"olleh"
+   reverseString("oo")     //"oo"
+   reverseString("")       //""
+
+   ```
+
+   Answer:
+   const reverseString = (str) =>{
+   console.log(str.length -3)
+   }
+
+   reverseString('benaty')
+
 2. Declare a function named `reverseZigZagString` that takes in a string argument and returns the reversed version of the string with characters alternating in uppercase and lowercase, without using any `.reverse()` JavaScript methods.
-    
-    ```
-    reverseZigZagString("hello") //"oOlLeH"
-    reverseZigZagString("Fellows")    //"sWoLlEf"
-    reverseZigZagString("Code Challenge ")  //"eGnElLaHc EdOc"
-    
-    ```
+
+   ```
+   reverseZigZagString("hello") //"oOlLeH"
+   reverseZigZagString("Fellows")    //"sWoLlEf"
+   reverseZigZagString("Code Challenge ")  //"eGnElLaHc EdOc"
+
+   ```
